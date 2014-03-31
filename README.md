@@ -1,4 +1,4 @@
-Syntheist
+Synthesist
 =========
 
 Music Synthesizer
