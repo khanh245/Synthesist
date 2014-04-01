@@ -9,11 +9,11 @@ using namespace std;
 int main(int argc, char** argv)
 {
 	ofstream output("data.txt");
-	double cNote[8192];
+	double cNote[25000];
 
-	for (int i = 0; i < TWO_PI; ++i)
+	for (int i = 0; i < 25000; ++i)
 	{
-		cNote[i] = 2 * sin(TWO_PI * 440 * i);
+		cNote[i] = sin(TWO_PI * 440 * i);
 		output << i << " " << cNote[i] << endl;
 	}
 
