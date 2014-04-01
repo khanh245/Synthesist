@@ -1,4 +1,5 @@
 Synthesist
 =========
+Senior Project
 
-Music Synthesizer
+**Music Synthesizer in C++**
