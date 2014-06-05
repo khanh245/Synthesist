@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 
 	for (int i = 0; i < 25000; ++i)
 	{
-		cNote[i] = sin(TWO_PI * 440 * i);
+		cNote[i] = sin((TWO_PI * 440 * i) / 44100);
 		output << i << " " << cNote[i] << endl;
 	}
 
